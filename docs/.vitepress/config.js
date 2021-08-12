@@ -19,23 +19,32 @@ module.exports = {
         ['@vuepress/pwa', {
             serviceWorker: true,
             updatePopup: true
-        }]
+        }],
+      [
+        '@vuepress/plugin-search',
+        {
+          locales: {
+            '/': {
+              placeholder: 'Search',
+            },
+            '/zh/': {
+              placeholder: '搜索',
+            },
+          },
+        },
+      ],
     ],
     // 主题配置
     themeConfig: {
-        // 显示搜索框
-        search: true,
-        // 最多搜索建议条数
-        searchMaxSuggestions: 10,
         // 获取每个文件最后一次 git 提交的 UNIX 时间戳(ms)，同时它将以合适的日期格式显示在每一页的底部
         // lastUpdated: 'Last Updated', // string | boolean
         // 启动页面丝滑滚动
         smoothScroll: true,
         // 导航栏配置
         nav:[
-            {text: '我的个人网站', link: 'https://baidu.com' },
-            {text: '掘金', link: 'https://baidu.com'},
-            {text: 'Github', link: 'https://baidu.com'}
+            {text: '我的个人网站', link: 'https://www.cooldream.fun/home' },
+            {text: '掘金', link: 'https://juejin.cn/user/1855631359481847/posts'},
+            {text: 'Github', link: 'https://github.com/Jack-Star-T'}
         ],
         sidebar:{
             '/':getSidebar()
@@ -47,14 +56,39 @@ function getSidebar() {
     return [
         {
             text:'HTML',
-            link: '/html/',
+            children: [
+                { text: '关于HTML', link: '/HTML/' },
+                { text: '块级元素和行内元素', link: '/HTML/blockAndInline' },
+            ],
+            sidebarDepth:3
         },
         {
             text:'CSS',
-            link: '/css/',
             children:[
-                { text: '如何理解Doctype', link: '/css/flex-box' },
+                { text: '关于CSS', link: '/CSS/' },
+                { text: '如何理解Doctype', link: '/CSS/flex-box' },
             ]
+        },
+        {
+          text:'Javascript',
+        },
+        {
+          text:'ECMAScript',
+        },
+        {
+          text:'Vue',
+        },
+        {
+          text:'浏览器',
+        },
+        {
+          text:'网络',
+        },
+        {
+          text:'安全',
+        },
+        {
+          text:'面经',
         },
     ]
 }
