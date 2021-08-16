@@ -58,6 +58,7 @@ function getSidebar() {
             text:'HTML',
             children: [
                 { text: '关于HTML', link: '/HTML/' },
+                { text: '块级元素和行内元素', link: '/HTML/DOCTYPE' },
                 { text: '块级元素和行内元素', link: '/HTML/blockAndInline' },
             ],
             sidebarDepth:3
