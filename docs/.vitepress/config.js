@@ -57,17 +57,16 @@ function getSidebar() {
         {
             text:'HTML',
             children: [
-                { text: '关于HTML', link: '/HTML/' },
-                { text: '块级元素和行内元素', link: '/HTML/DOCTYPE' },
-                { text: '块级元素和行内元素', link: '/HTML/blockAndInline' },
+                { text: '基础', link: '/HTML/' },
+                { text: '进阶', link: '/HTML/advanced' },
             ],
             sidebarDepth:3
         },
         {
             text:'CSS',
             children:[
-                { text: '关于CSS', link: '/CSS/' },
-                { text: '如何理解Doctype', link: '/CSS/flex-box' },
+                { text: '基础', link: '/CSS/' },
+                { text: '进阶', link: '/CSS/advanced' },
             ]
         },
         {

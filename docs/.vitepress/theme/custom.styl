@@ -31,7 +31,7 @@
     top: 12px;
     width: 26px;
     height: 26px;
-    background-image: url(/public/eletron.png);
+    background-image: url(/eletron.png);
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: contain;
@@ -89,7 +89,7 @@ a.sidebar-link-item.active{
   display: block;
   height: 40px;
   width: 100%;
-  background url("../../public/md.png") 0 0 no-repeat
+  background url("/md.png") 0 0 no-repeat
   margin-bottom: -7px;
   background-size: 40px;
 }
@@ -357,7 +357,7 @@ a.sidebar-link-item.active{
     top 12px
     width 26px
     height 26px
-    background-image url("../../public/eletron.png")
+    background-image url("/eletron.png")
     background-position 0 0
     background-repeat no-repeat
     background-size contain
@@ -1127,4 +1127,8 @@ a.sidebar-link-item.active{
 }
 .container pre{
   background-color var(--code-bg-color)
+}
+h3:not(h2 + h3){
+  border-top: 2px dashed #d6d6d6;
+  padding-top: 1.5rem;
 }
