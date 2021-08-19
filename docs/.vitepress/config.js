@@ -5,7 +5,7 @@ module.exports = {
     description: 'Interview with vitePress',
     // 打包目录
     dest: './dist',
-    base:'/home/',
+    base:'/interview/',
     // 头部head
     head: [
         // 添加图标
