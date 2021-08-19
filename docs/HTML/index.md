@@ -75,3 +75,23 @@ HTML4.01 基于 SGML ，所以需要引用 DTD 。才能告知浏览器文档所
 - 常用元素
 
     `a` , `button` , `span` , `img` , `em` , `i` , `label` , `select` , `textarea`
+    
+## src和href的区别
+
+## script标签中defer和async的区别
+
+## 常⽤的meta标签有哪些
+
+## img的srcset属性的作⽤
+
+## 说一下 web worker
+
+## iframe 有那些优点和缺点
+
+## Canvas和SVG的区别
+
+## head 标签有什么作用，其中什么标签必不可少
+
+## 浏览器乱码的原因是什么？如何解决
+
+## 渐进增强和优雅降级之间的区别

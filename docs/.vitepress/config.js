@@ -5,6 +5,7 @@ module.exports = {
     description: 'Interview with vitePress',
     // 打包目录
     dest: './dist',
+    base:'/home/',
     // 头部head
     head: [
         // 添加图标
@@ -57,8 +58,8 @@ function getSidebar() {
         {
             text:'HTML',
             children: [
-                { text: '基础', link: '/HTML/' },
-                { text: '进阶', link: '/HTML/advanced' },
+                { text: '基础', link: '/home/HTML/' },
+                { text: '进阶', link: '/home/HTML/advanced' },
             ],
             sidebarDepth:3
         },
@@ -71,24 +72,45 @@ function getSidebar() {
         },
         {
           text:'Javascript',
-        },
-        {
-          text:'ECMAScript',
+          children:[
+            { text: '基础', link: '/Javascript/' },
+            { text: '进阶', link: '/Javascript/advanced' },
+          ]
         },
         {
           text:'Vue',
+          children:[
+            { text: '基础', link: '/Vue/' },
+            { text: '进阶', link: '/Vue/advanced' },
+          ]
         },
         {
           text:'浏览器',
+          children:[
+            { text: '基础', link: '/Vue/' },
+            { text: '进阶', link: '/Vue/advanced' },
+          ]
         },
         {
           text:'网络',
+          children:[
+            { text: '基础', link: '/Network/' },
+            { text: '进阶', link: '/Network/advanced' },
+          ]
         },
         {
           text:'安全',
+          children:[
+            { text: '基础', link: '/Security/' },
+            { text: '进阶', link: '/Security/advanced' },
+          ]
         },
         {
           text:'面经',
+          children:[
+            { text: '基础', link: '/Experience/' },
+            { text: '进阶', link: '/Experience/advanced' },
+          ]
         },
     ]
 }
