@@ -7,7 +7,7 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
-    "deploy-gh": "npm run build && bash scripts/deploy-gh.sh"
+    "pages": "npm run build && bash scripts/deploy-gh.sh"
   },
   "author": "",
   "license": "ISC",

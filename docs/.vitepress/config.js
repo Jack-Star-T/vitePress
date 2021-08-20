@@ -17,10 +17,6 @@ module.exports = {
         '@vuepress/back-to-top',
         '@vuepress/medium-zoom',
         '@vuepress/nprogress',
-        ['@vuepress/pwa', {
-            serviceWorker: true,
-            updatePopup: true
-        }],
       [
         '@vuepress/plugin-search',
         {
@@ -58,8 +54,8 @@ function getSidebar() {
         {
             text:'HTML',
             children: [
-                { text: '基础', link: '/home/HTML/' },
-                { text: '进阶', link: '/home/HTML/advanced' },
+                { text: '基础', link: '/HTML/' },
+                { text: '进阶', link: '/HTML/advanced' },
             ],
             sidebarDepth:3
         },

@@ -5,13 +5,13 @@ heroAlt: Logo image
 heroText: Interview
 tagline: the website of Interview with VitePress
 actionText: Get Started
-actionLink: /html/
+actionLink: /HTML/
 features:
-  - title: Easy Setup
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VitePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+  - title: Widely
+    details: 涵盖了前端几乎所有方面的知识点,技术面试，一个网站足矣。
+  - title: Phased
+    details: 分为基础、进阶、地狱三级难度，分别面向应届生，有工作经验的程序员。
+  - title: Experience
+    details: 面试不仅需要技术，同时，也需要一些心理博弈。
 footer: MIT Licensed | Copyright © 2021-present CoolDream
 ---
