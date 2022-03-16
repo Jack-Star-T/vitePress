@@ -71,6 +71,7 @@ function getSidebar() {
           children:[
             { text: '基础', link: '/Javascript/' },
             { text: '进阶', link: '/Javascript/advanced' },
+            { text: '进阶', link: '/Javascript/nightmare' },
           ]
         },
         {

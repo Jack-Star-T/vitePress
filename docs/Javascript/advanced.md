@@ -18,7 +18,7 @@ title Javascript 进阶
 
 4. 所以，最终返回 `[1, NaN, NaN]`
 
-## function(1)(2)(3)(4) 如何输出 10 （实现累加器）
+## 
 
 
  
